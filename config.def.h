@@ -196,6 +196,13 @@ static Button buttons[] = {
 #  warning "Compiling without mouse wheel support"
 # endif
 };
+
+static Button tag_buttons[] = {
+	{ BUTTON1_CLICKED,        { mouse_toggleview, { NULL  } } },
+	{ BUTTON1_DOUBLE_CLICKED, { mouse_view,       { NULL  } } },
+	{ BUTTON2_CLICKED,        { view,             { NULL  } } },
+	{ BUTTON3_CLICKED,        { mouse_toggletag,  { NULL  } } },
+};
 #endif /* CONFIG_MOUSE */
 
 static Cmd commands[] = {
