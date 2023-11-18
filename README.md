@@ -2,6 +2,17 @@
 
 - [pertag](waxandwane.org/dvtm.html)
 - [Added default support for scrolling with the mouse wheel.](https://github.com/martanne/dvtm/pull/104)
+- [Added mousetag](https://github.com/martanne/dvtm/pull/90)
+    * Single click to toggle viewing that tag.
+    * Double click to switch to viewing only that tag.
+    * Middle click to view all tags.
+    * Right click to toggle the current window to that tag.
+
+---
+# My build of dvtm with a few patches and tweaks applied 
+
+- [pertag](waxandwane.org/dvtm.html)
+- [Added default support for scrolling with the mouse wheel.](https://github.com/martanne/dvtm/pull/104)
 
 ---
 # dvtm - dynamic virtual terminal manager
