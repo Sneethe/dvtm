@@ -1343,7 +1343,7 @@ focusprevnm(const char *args[]) {
 static void
 focuslast(const char *args[]) {
 	if (lastsel)
-		focus(lastsel);
+		focus(lastsel && isvisible(lastsel));
 }
 
 static void
