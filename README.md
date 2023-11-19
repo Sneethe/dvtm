@@ -9,12 +9,6 @@
     * Right click to toggle the current window to that tag.
 
 ---
-# My build of dvtm with a few patches and tweaks applied 
-
-- [pertag](waxandwane.org/dvtm.html)
-- [Added default support for scrolling with the mouse wheel.](https://github.com/martanne/dvtm/pull/104)
-
----
 # dvtm - dynamic virtual terminal manager
 
 [dvtm](https://www.brain-dump.org/projects/dvtm/) brings the concept
